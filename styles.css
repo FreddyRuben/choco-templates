@@ -1,5 +1,12 @@
 body{
-border: 1px solid red;
+text-align: center;
+}
+
+header{
+  max-width: 945px;
+  min-width: 945px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .head-up{
@@ -15,6 +22,7 @@ border: 1px solid red;
 
 .search-field{
 margin-top: 22px;
+background-color: rgb(255, 255, 255);
 }
 
 .search-button{
@@ -40,19 +48,39 @@ margin-top: 22px;
 
 li{
   padding-top: 11px;
-  border: 1px solid rgb(59, 202, 255);
+  /* border: 1px solid rgb(59, 202, 255); */
   width: 75px;
   list-style: none;
   font-family: arial;
   font-size: 13px;
   margin-right: 3px;
-  height: 28px;
-  margin-top: 7px;
+  height: 27px;
+  margin-top: 9px;
   text-align: center;
   border-radius: 7px;
   color: rgb(255, 255, 255);
 }
 
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .home{
   background-color: rgb(255, 255, 255);
+  color: rgb(122, 122, 122);
+}
+
+a:hover{
+  color: rgb(122, 122, 122);
+}
+
+li:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(122, 122, 122);
+}
+
+
+@@media screen () {
+
 }
