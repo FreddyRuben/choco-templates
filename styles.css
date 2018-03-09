@@ -1,12 +1,11 @@
 body{
-text-align: center;
+/* border: 2px solid green; */
 }
 
 header{
-  max-width: 945px;
-  min-width: 945px;
-  margin-left: 25%;
-  margin-right: 25%;
+  /* border: 1px solid red; */
+  width: 913px;
+   margin: auto;
 }
 
 .head-up{
@@ -23,18 +22,20 @@ header{
 .search-field{
 margin-top: 22px;
 background-color: rgb(255, 255, 255);
+border-radius: 5px;
+height: 25px;
 }
 
 .search-button{
   margin-bottom: -6px;
-  height: 22px;
-  width: 20px;
-  background-color: rgb(59, 202, 255);
+  height: 25px;
+  width: 25px;
+  background-image: url(img/search-button.gif);
   border-radius: 5px;
 }
 
 .head-down{
-  background-color: rgb(59, 202, 255);
+  background-image: url(img/navigation.gif);
   height: 55px;
   margin-left: 20px;
   margin-right: 20px;
@@ -75,12 +76,23 @@ a:hover{
   color: rgb(122, 122, 122);
 }
 
-li:hover{
+.option-nav:hover{
   background-color: rgb(255, 255, 255);
   color: rgb(122, 122, 122);
 }
 
+.option-nav>ul>li{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: block;
+  border-radius: 0px;
+  display: none;
+}
 
-@@media screen () {
+.option-nav:hover > ul > li{
+  display: block;
+}
 
+.option-nav>ul>li:hover{
+  background-color: rgb(0, 224, 255);
 }
