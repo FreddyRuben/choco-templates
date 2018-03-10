@@ -1,11 +1,14 @@
+*{
+  padding: 0;
+}
+
 body{
-/* border: 2px solid green; */
 }
 
 header{
-  /* border: 1px solid red; */
   width: 913px;
    margin: auto;
+   border: 1px solid red;
 }
 
 .head-up{
@@ -44,12 +47,11 @@ height: 25px;
 
 .nav-bar{
   display: flex;
-  margin-left: -30px;
+  margin-left: 10px;
 }
 
 li{
   padding-top: 11px;
-  /* border: 1px solid rgb(59, 202, 255); */
   width: 75px;
   list-style: none;
   font-family: arial;
@@ -58,7 +60,6 @@ li{
   height: 27px;
   margin-top: 9px;
   text-align: center;
-  border-radius: 7px;
   color: rgb(255, 255, 255);
 }
 
@@ -68,6 +69,7 @@ a{
 }
 
 .home{
+  border-radius: 7px;
   background-color: rgb(255, 255, 255);
   color: rgb(122, 122, 122);
 }
@@ -76,23 +78,61 @@ a:hover{
   color: rgb(122, 122, 122);
 }
 
+.option-nav{
+  border-radius: 7px;
+}
+
 .option-nav:hover{
   background-color: rgb(255, 255, 255);
   color: rgb(122, 122, 122);
 }
 
+.option-nav>ul{
+  margin-top: 5px;
+  padding-right: 180px;
+}
+
 .option-nav>ul>li{
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  display: block;
-  border-radius: 0px;
+  color: rgb(122, 122, 122);
+  padding-right: 95px;
+  margin-top: 0;
   display: none;
 }
 
-.option-nav:hover > ul > li{
+.option-nav:hover > ul >li{
+  display: block;
+}
+
+.home>ul>li{
+  background-color: rgb(255, 255, 255);
+  color: rgb(122, 122, 122);
+  padding-right: 95px;
+  margin-top: 0;
+  display: none;
+}
+
+.home:hover > ul > li{
   display: block;
 }
 
 .option-nav>ul>li:hover{
-  background-color: rgb(0, 224, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 199, 238);
+}
+
+.home>ul>li:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 199, 238);
+}
+
+.first-article{
+  border: 1px solid green;
+  height: 50px;
+  width: 913px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.central-animation{
 }
