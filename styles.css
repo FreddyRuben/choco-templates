@@ -7,8 +7,7 @@ body{
 
 header{
   width: 913px;
-   margin: auto;
-   border: 1px solid red;
+  margin: auto;
 }
 
 .head-up{
@@ -102,6 +101,7 @@ a:hover{
 
 .option-nav:hover > ul >li{
   display: block;
+  position: relative;
 }
 
 .home>ul>li{
@@ -113,6 +113,7 @@ a:hover{
 }
 
 .home:hover > ul > li{
+  position:relative;
   display: block;
 }
 
@@ -126,13 +127,103 @@ a:hover{
   background-color: rgb(69, 199, 238);
 }
 
-.first-article{
-  border: 1px solid green;
-  height: 50px;
+.content{
+  /* border: 1px solid green; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 913px;
+}
+
+.central-animation{
+  height: 330px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: linear-gradient(rgb(242, 242, 242), rgb(224, 219, 219));
+}
+
+.global-news{
+  display:inline-flex;
+}
+
+.news{
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.title{
+  margin-top: 27px;
+  font-family: arial;
+  font-size: 18px;
+  margin-bottom: 3px;
+  color: rgb(42, 42, 42);
+}
+
+hr{
+  margin-top: 0;
+  border: solid 0.5px rgb(226, 219, 219);
+}
+
+.subtitle-1{
+  font-family: arial;
+  color: rgb(0, 197, 232);
+  font-size: 24px;
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+
+.subtitle-2{
+  margin-top: -23px;
+  font-family: arial;
+  font-size: 0.9em;
+  color: rgb(103, 103, 103);
+  margin-bottom: 4px;
+}
+
+.info{
+  font-family: arial;
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+  line-height: 20px;
+}
+
+.link-article{
+  color: rgb(69, 199, 238);
+  text-decoration: underline;
+  font-family: arial;
+  font-size: 12px;
+}
+
+.global-news-2{
+  display: flex;
+}
+
+.news-2{
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer{
+  height: 61px;
   width: 913px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.central-animation{
+.foot{
+  border-radius: 7px;
+  background-image: url(img/footer.gif);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-foot{
+  display: flex;
+  height: 60px;
+}
+
+.element-foot{
 }
